@@ -10,3 +10,7 @@
 + `npm install`
 + `gulp build`
 + `gulp host`
+
+# deploy
+
++ `gulp deploy`

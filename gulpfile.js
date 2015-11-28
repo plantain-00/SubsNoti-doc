@@ -13,6 +13,8 @@ let command = target.join(" && ");
 
 gulp.task("build", shell.task(`rm -rf _book && gitbook build . && ${command}`));
 
+gulp.task("deploy", shell.task(`gitbook build . && ${command}`));
+
 gulp.task("host", () => {
     liveServer.start({
         port: 9997,
