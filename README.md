@@ -14,3 +14,7 @@
 # deploy
 
 + `gulp deploy`
+
+# demo
+
+http://115.29.42.125:9997/
