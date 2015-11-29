@@ -6,7 +6,7 @@ get current version.
 
 `GET` `/api/version`
 
-### [response body](../response.html)
+### [response body](./response.html)
 
 key name | value type
 --- | ---
