@@ -6,8 +6,6 @@
 
 ### [headers](../request/headers.html)
 
-### [cookies](../request/cookies.html)
-
 ### request body
 
 key name | value type | required
