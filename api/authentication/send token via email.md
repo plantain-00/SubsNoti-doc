@@ -18,3 +18,7 @@ guid | string | true
 code | string | true
 
 ### [response body](../response.html)
+
+key name | value type | description
+--- | --- | ---
+url | string | only appears in test environment

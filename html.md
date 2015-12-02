@@ -4,6 +4,22 @@
 
 ## `/login_with_authentication_credential`
 
+### parameters
+
+name | description
+--- | ---
+authentication_credential | the authentication credential
+
+### response cookies
+
+name | description
+--- | ---
+authentication_credential | the authentication credential
+
+### response
+
+redirected to ## `/success.html`.
+
 ## `/github_code`
 
 ## `/error.html`

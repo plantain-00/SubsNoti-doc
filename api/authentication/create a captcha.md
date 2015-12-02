@@ -14,6 +14,7 @@ id | string | true
 
 ### [response body](../response.html)
 
-key name | value type
---- | ---
-url | string
+key name | value type | description
+--- | --- | ---
+url | string | the base64 url of image
+code | string | only appears at test environment
