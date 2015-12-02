@@ -1,0 +1,15 @@
+digraph frontends_html {
+    error -> hair
+    error -> scripts
+    error -> foot
+    head -> hair
+    page_a -> head
+    page_a -> scripts
+    page_a -> foot
+    page_b -> head
+    page_b -> scripts
+    page_b -> foot
+    success -> hair
+    success -> scripts
+    success -> foot
+}

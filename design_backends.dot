@@ -1,0 +1,31 @@
+digraph backends {
+    secrets -> types
+    secrets -> settings
+
+    settings -> types
+    settings -> secrets
+
+    services -> service_a
+    services -> service_b
+
+    service_a -> libs
+    service_a -> settings
+    service_a -> services
+
+    service_b -> libs
+    service_b -> settings
+    service_b -> services
+
+    controller_a -> services
+
+    controller_b -> services
+
+    apiRouter -> controller_a
+    apiRouter -> controller_b
+
+    api -> apiRouter
+    apiDevelopment -> apiRouter
+    apiTest -> apiRouter
+
+    imageUploader -> services
+}
