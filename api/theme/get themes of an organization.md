@@ -6,6 +6,8 @@
 
 ### [headers](../request/headers.html)
 
+### [parameters](../request/parameters.html)
+
 key name | value type | required | default value
 --- | --- | --- | ---
 page | number | false | 1
