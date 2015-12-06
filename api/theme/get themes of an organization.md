@@ -13,8 +13,8 @@ key name | value type | required | default value
 page | number | false | 1
 limit | number | false | 10
 q | string | false | ''
-isOpen | boolean | false | true
-isClosed | boolean | false | false
+isOpen | string | false | '√'
+isClosed | string | false | 'X'
 order | [ThemeOrder](./theme order.html) | false | "newest"
 
 ### [cookies](../request/cookies.html)

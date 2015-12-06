@@ -18,7 +18,7 @@ authentication_credential | the authentication credential
 
 ### response
 
-redirected to ## `/success.html`.
+redirected to `/success.html`.
 
 ## `/github_code`
 
