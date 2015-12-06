@@ -27,5 +27,9 @@ digraph backends {
     apiDevelopment -> apiRouter
     apiTest -> apiRouter
 
-    imageUploader -> services
+    imageUploaderRouter -> services
+
+    imageUploader -> imageUploaderRouter
+    imageUploaderDevelop -> imageUploaderRouter
+    imageUploaderTest -> imageUploaderRouter
 }
