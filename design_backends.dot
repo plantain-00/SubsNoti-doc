@@ -32,4 +32,17 @@ digraph backends {
     imageUploader -> imageUploaderRouter
     imageUploaderDevelop -> imageUploaderRouter
     imageUploaderTest -> imageUploaderRouter
+
+    integration -> services
+    integration -> seeds
+
+    test -> integration
+    rebuild -> integration
+
+    test -> baseline
+    rebuild -> baseline
+
+    buildSeeds -> seeds
+    buildSeeds -> libs
+    buildSeeds -> types
 }
