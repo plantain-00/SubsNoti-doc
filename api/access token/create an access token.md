@@ -1,8 +1,8 @@
-# update an application
+# create an access token
 
 ## url
 
-`put` `/api/user/registered/:application_id`
+`POST` `/api/user/access_tokens`
 
 ### [headers](../request/headers.html)
 
@@ -12,9 +12,7 @@
 
 key name | value type | required
 --- | --- | ---
-name | string | true
-homeUrl | string | true
-description | string | false
-authorizationCallbackUrl | string | true
+description | string | true
+scopes | string[] | true
 
 ### [response body](../response.html)

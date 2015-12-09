@@ -1,8 +1,8 @@
-# delete an application
+# revoke an application
 
 ## url
 
-`DELETE` `/api/user/registered/:application_id`
+`DELETE` `/api/user/authorized/:application_id`
 
 ### [headers](../request/headers.html)
 

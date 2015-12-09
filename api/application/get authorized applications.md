@@ -1,8 +1,8 @@
-# get registered applications
+# get authorized applications
 
 ## url
 
-`GET` `/api/user/registered`
+`GET` `/api/user/authorized`
 
 ### [headers](../request/headers.html)
 

@@ -2,7 +2,7 @@
 
 ## url
 
-`POST` `/api/user/applications`
+`POST` `/api/user/registered`
 
 ### [headers](../request/headers.html)
 

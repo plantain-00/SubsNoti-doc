@@ -1,8 +1,8 @@
-# delete an application
+# delete an access token
 
 ## url
 
-`DELETE` `/api/user/registered/:application_id`
+`DELETE` `/api/user/access_tokens/:access_token`
 
 ### [headers](../request/headers.html)
 

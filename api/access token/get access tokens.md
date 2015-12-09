@@ -1,8 +1,8 @@
-# get a registered application
+# get access tokens
 
 ## url
 
-`GET` `/api/user/applications/:id`
+`GET` `/api/user/access_tokens`
 
 ### [headers](../request/headers.html)
 
@@ -12,4 +12,4 @@
 
 key name | value type
 --- | ---
-application | [Application](../application.html)
+accessTokens | [AccessToken](../access token.html)[]
