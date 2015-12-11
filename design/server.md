@@ -1,7 +1,7 @@
 # server
 
-+ image server: 7777
-+ image uploader: 9999
-+ api: 9998
-+ frontend: 80
-+ document: 9997
++ image server: `https://yorkyao.xyz:7777`
++ image uploader: `https://yorkyao.xyz:9999`
++ api: `https://yorkyao.xyz`
++ frontend: `https://yorkyao.xyz`
++ document: `https://yorkyao.xyz:9997`
