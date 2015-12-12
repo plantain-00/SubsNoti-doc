@@ -2,4 +2,4 @@
 
 ## server name
 
-`https://yorkyao.xyz:9999`/
+`https://yorkyao.xyz:7777`/

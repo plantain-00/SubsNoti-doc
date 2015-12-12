@@ -1,7 +1,10 @@
 # Summary
 
 * [introduction](README.md)
-* [api](api/README.md)
+* [design](design.md)
+    * [database models](design/database models.md)
+    * [server](design/server.md)
+* [api](api.md)
     * [version](api/version.md)
     * [authentication](api/authentication.md)
         * [create a captcha](api/authentication/create a captcha.md)
@@ -49,6 +52,3 @@
     * [response](api/response.md)
 * [html](html.md)
 * [image](image.md)
-* [design](design.md)
-    * [database models](design/database models.md)
-    * [server](design/server.md)
