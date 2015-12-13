@@ -14,9 +14,4 @@ the authentication credential should be stored in a cookie named 'authentication
 
 key name | value type
 --- | ---
-id | string
-email | string
-name | string
-createdOrganizationCount | number
-joinedOrganizationCount | number
-avatar | string
+user | [User](../user.html)

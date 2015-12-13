@@ -11,15 +11,6 @@ organizationId | string
 createTime | ISO 8601 time string
 updateTime | ISO 8601 time string?
 status | [ThemeStatus](theme/theme status.html)
-creator | [User](#user)
-owners | [User](#user)[]
-watchers | [User](#user)[]
-
-### user
-
-key name | value type
---- | ---
-id | string
-name | string
-email | string
-avatar | string
+creator | [User](./user.html)
+owners | [User](./user.html)[]
+watchers | [User](./user.html)[]
