@@ -2,7 +2,7 @@
 
 ## server name
 
-`https://yorkyao.xyz:7777/`
+`https://img.yorkyao.xyz/`
 
 ## `/avatar-{{uid}}.png`
 

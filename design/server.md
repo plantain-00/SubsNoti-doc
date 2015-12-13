@@ -1,5 +1,5 @@
 # server
 
-+ image server and uploader: `https://yorkyao.xyz:7777`
++ image server and uploader: `https://img.yorkyao.xyz`
 + api and frontend: `https://yorkyao.xyz`
-+ document: `https://yorkyao.xyz:9997`
++ document: `https://doc.yorkyao.xyz`
