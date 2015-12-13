@@ -6,4 +6,4 @@ key name | value type
 --- | ---
 id | string
 description | string
-scopes | [Scope](./scope.html)
+scopes | [Scope](./scope.html)[]

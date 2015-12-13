@@ -2,18 +2,11 @@
 
 ## url
 
-`put` `/api/user/access_tokens/:access_token_id`
+`put` `/api/user/access_tokens/:access_token_id/value`
 
 ### [headers](../request/headers.html)
 
 ### [cookies](../request/cookies.html)
-
-### request body
-
-key name | value type | required
---- | --- | ---
-description | string | true
-scopes | string[] | true
 
 ### [response body](../response.html)
 
