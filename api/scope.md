@@ -1,9 +1,8 @@
-# access token
+# scope
 
 ### models
 
 key name | value type
 --- | ---
-id | string
+name | string
 description | string
-scopes | [Scope](./scope.html)

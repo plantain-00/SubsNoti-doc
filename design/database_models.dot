@@ -5,4 +5,7 @@ graph G {
     Themes -- Owners [taillabel="*" headlabel="1..*"]
     Themes -- Watchers [taillabel="*" headlabel="1..*"]
     Themes -- Creators [taillabel="*" headlabel="1"]
+    Applications -- Creators [taillabel="*" headlabel="1"]
+    AccessTokens -- Creators [taillabel="*" headlabel="1"]
+    AccessTokens -- Applications [taillabel="*" headlabel="1"]
 }

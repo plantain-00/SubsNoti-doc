@@ -10,11 +10,4 @@
 
 key name | value type
 --- | ---
-scopes | [Scope](#scope)[]
-
-## scope
-
-key name | value type
---- | ---
-name | string
-description | string
+scopes | [Scope](../scope.html)[]
