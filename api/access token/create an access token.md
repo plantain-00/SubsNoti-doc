@@ -16,3 +16,7 @@ description | string | true
 scopes | string[] | true
 
 ### [response body](../response.html)
+
+key name | value type
+--- | ---
+accessToken | string

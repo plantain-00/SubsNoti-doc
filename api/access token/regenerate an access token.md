@@ -1,4 +1,4 @@
-# update an access token
+# regenerate an access token
 
 ## url
 
@@ -16,3 +16,7 @@ description | string | true
 scopes | string[] | true
 
 ### [response body](../response.html)
+
+key name | value type
+--- | ---
+accessToken | string

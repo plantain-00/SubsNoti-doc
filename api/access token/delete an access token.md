@@ -2,7 +2,7 @@
 
 ## url
 
-`DELETE` `/api/user/access_tokens/:access_token`
+`DELETE` `/api/user/access_tokens/:access_token_id`
 
 ### [headers](../request/headers.html)
 
