@@ -1,24 +1,24 @@
 {
-  "name": "subsnoti-doc",
-  "version": "1.1.13",
-  "description": "the document of `SubsNoti`",
-  "main": "gulpfile.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/plantain-00/SubsNoti-doc.git"
-  },
-  "author": "yao",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/plantain-00/SubsNoti-doc/issues"
-  },
-  "homepage": "https://github.com/plantain-00/SubsNoti-doc#readme",
-  "devDependencies": {
-    "gulp": "latest",
-    "gulp-shell": "latest",
-    "live-server": "latest"
-  }
+    "name": "subsnoti-doc",
+    "version": "1.1.14",
+    "description": "the document of `SubsNoti`",
+    "main": "gulpfile.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/plantain-00/SubsNoti-doc.git"
+    },
+    "author": "yao",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/plantain-00/SubsNoti-doc/issues"
+    },
+    "homepage": "https://github.com/plantain-00/SubsNoti-doc#readme",
+    "devDependencies": {
+        "gulp": "^3.9.0",
+        "gulp-shell": "^0.5.1",
+        "live-server": "^0.9.0"
+    }
 }
