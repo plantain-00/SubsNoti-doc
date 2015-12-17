@@ -8,6 +8,4 @@
 
 ### [cookies](../request/cookies.html)
 
-### request body
-
 ### [response body](../response.html)

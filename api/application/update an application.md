@@ -2,7 +2,7 @@
 
 ## url
 
-`put` `/api/user/registered/:application_id`
+`PUT` `/api/user/registered/:application_id`
 
 ### [headers](../request/headers.html)
 
