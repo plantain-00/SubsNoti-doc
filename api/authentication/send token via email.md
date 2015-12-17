@@ -16,6 +16,7 @@ email | string | true
 name | string | false
 guid | string | true
 code | string | true
+redirectUrl | string | false
 
 ### [response body](../response.html)
 
