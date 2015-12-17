@@ -45,6 +45,7 @@
         * [update an access token](api/access token/update an access token.md)
         * [regenerate an access token](api/access token/regenerate an access token.md)
         * [delete an access token](api/access token/delete an access token.md)
+        * [create an access token for application](api/access token/create an access token for application.md)
     * [scope](api/scope.md)
         * [get scopes](api/scope/get scopes.md)
     * [request](api/request.md)

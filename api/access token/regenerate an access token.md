@@ -2,7 +2,7 @@
 
 ## url
 
-`put` `/api/user/access_tokens/:access_token_id/value`
+`PUT` `/api/user/access_tokens/:access_token_id/value`
 
 ### [headers](../request/headers.html)
 
