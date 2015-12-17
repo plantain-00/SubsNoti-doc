@@ -39,14 +39,23 @@ name | description
 client_id | client id
 scopes | scopes seperated by comma
 state | random string
+code | optional
 
 ### response
 
-1. if not logged in, redirected to login page.
-2. if not authorized, redirected to authorization page.
+1. if not logged in, redirected to `/login.html`.
+2. if not authorized, redirected to `/authorization.html`.
 3. redirected to application with `code` and `state`.
 
 ## `/authorization.html`
+
+### parameters
+
+name | description
+--- | ---
+redirect_url | redirect url
+scopes | scopes seperated by comma
+code |
 
 ## `/error.html`
 
@@ -62,6 +71,12 @@ message | the error message
 
 ## `/login.html`
 
+### parameters
+
+name | description
+--- | ---
+redirect_url |
+
 ## `/new_organization.html`
 
 ## `/success.html`
@@ -71,5 +86,6 @@ message | the error message
 name | description
 --- | ---
 clear_previous_status | will clean the login result in session storage when is `√`
+redirect_url |
 
 ## `/user.html`
