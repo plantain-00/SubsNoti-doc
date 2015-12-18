@@ -56,6 +56,7 @@ name | description
 redirect_url | redirect url
 scopes | scopes seperated by comma
 code |
+application_id | the id of the application
 
 ## `/error.html`
 
@@ -89,3 +90,9 @@ clear_previous_status | will clean the login result in session storage when is `
 redirect_url |
 
 ## `/user.html`
+
+## `/authorized.html`
+
+## `/access_tokens.html`
+
+## `/registered.html`

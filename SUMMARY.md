@@ -39,6 +39,7 @@
         * [reset client secret](api/application/reset client secret.md)
         * [get authorized applications](api/application/get authorized applications.md)
         * [revoke an application](api/application/revoke an application.md)
+        * [get an application](api/application/get an application.md)
     * [access token](api/access token.md)
         * [get access tokens](api/access token/get access tokens.md)
         * [create an access token](api/access token/create an access token.md)
