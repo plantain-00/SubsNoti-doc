@@ -47,6 +47,13 @@ code | optional
 2. if not authorized, redirected to `/authorization.html`.
 3. redirected to application with `code` and `state`.
 
+#### [for test environment](./api/response.html)
+
+name | type | description
+--- | --- |
+pageName | string | `login`, `authorization` or null
+code | string
+
 ## `/authorization.html`
 
 ### parameters
@@ -76,7 +83,7 @@ message | the error message
 
 name | description
 --- | ---
-redirect_url |
+redirect_url | redirect url
 
 ## `/new_organization.html`
 
@@ -87,7 +94,7 @@ redirect_url |
 name | description
 --- | ---
 clear_previous_status | will clean the login result in session storage when is `√`
-redirect_url |
+redirect_url | redirect url
 
 ## `/user.html`
 
