@@ -4,7 +4,7 @@ let gulp = require("gulp");
 let shell = require("gulp-shell");
 let liveServer = require("live-server");
 
-let files = ["design/database_models", "design_backends", "design_frontends_js", "design_frontends_html"];
+let files = ["design/database_models", "design_backends", "design_frontends", "design_frontends_js", "design_frontends_html"];
 let target = [];
 for (let file of files) {
     target.push(`dot -Tsvg ${file}.dot > _book/${file}.svg`);
