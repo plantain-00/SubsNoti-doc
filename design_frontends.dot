@@ -1,0 +1,9 @@
+digraph frontends_js {
+    common -> types
+    head -> types
+    head -> common
+    error -> common
+    success -> common
+    page_a -> head
+    page_b -> head
+}
