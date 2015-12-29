@@ -1,6 +1,6 @@
 {
     "name": "subsnoti-doc",
-    "version": "1.2.2",
+    "version": "2.0.0",
     "description": "the document of `SubsNoti`",
     "main": "gulpfile.js",
     "scripts": {
