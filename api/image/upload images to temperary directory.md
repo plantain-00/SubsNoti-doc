@@ -17,3 +17,7 @@ array of files
 key name | value type
 --- | ---
 names | string[]
+
+The name is something like `:uuid.png`, the extension name is same as the file name uploaded.
+
+The actual url is `/tmp/:name`.
