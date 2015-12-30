@@ -4,7 +4,7 @@
 
 ### connection Url
 
-/themes
+`/themes`
 
 ### authentication
 
