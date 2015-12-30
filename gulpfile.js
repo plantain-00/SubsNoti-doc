@@ -11,7 +11,7 @@ for (let file of files) {
 }
 let command = target.join(" && ");
 
-gulp.task("build", shell.task(`rm -rf _book && gitbook build . && ${command}`));
+gulp.task("build", shell.task(`rm -rf _book && gitbook install && gitbook build . && ${command}`));
 
 gulp.task("deploy", shell.task(`gitbook build . && ${command}`));
 
