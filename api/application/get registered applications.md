@@ -2,7 +2,7 @@
 
 ## url
 
-`GET` `/api/user/registered`
+`GET` {{ book.apiBaseUrl }}/api/user/registered
 
 ### [headers](../request/headers.html)
 

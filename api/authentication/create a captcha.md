@@ -2,7 +2,7 @@
 
 ## url
 
-`POST` `/api/captchas`
+`POST` {{ book.apiBaseUrl }}/api/captchas
 
 ### [headers](../request/headers.html)
 

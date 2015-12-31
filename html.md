@@ -1,12 +1,12 @@
 # html
 
-## `/login_with_github`
+## {{ book.apiBaseUrl }}/login_with_github
 
 ### response
 
 redirected to login page or authorization page of github.
 
-## `/login_with_authentication_credential`
+## {{ book.apiBaseUrl }}/login_with_authentication_credential
 
 ### parameters
 
@@ -22,15 +22,15 @@ authentication_credential | the authentication credential
 
 ### response
 
-redirected to `/success.html`.
+redirected to {{ book.apiBaseUrl }}/success.html.
 
-## `/github_code`
+## {{ book.apiBaseUrl }}/github_code
 
 ### response
 
-redirected to `/success.html`.
+redirected to {{ book.apiBaseUrl }}/success.html.
 
-## `/oauth/authorize`
+## {{ book.apiBaseUrl }}/oauth/authorize
 
 ### parameters
 
@@ -43,8 +43,8 @@ code | optional
 
 ### response
 
-1. if not logged in, redirected to `/login.html`.
-2. if not authorized, redirected to `/authorization.html`.
+1. if not logged in, redirected to {{ book.apiBaseUrl }}/login.html.
+2. if not authorized, redirected to {{ book.apiBaseUrl }}/authorization.html.
 3. redirected to application with `code` and `state`.
 
 #### [for test environment](./api/response.html)
@@ -52,9 +52,9 @@ code | optional
 name | type | description
 --- | --- |
 pageName | string | `login`, `authorization` or null
-code | string
+code | string |
 
-## `/authorization.html`
+## {{ book.apiBaseUrl }}/authorization.html
 
 ### parameters
 
@@ -65,7 +65,7 @@ scopes | scopes seperated by comma
 code |
 application_id | the id of the application
 
-## `/error.html`
+## {{ book.apiBaseUrl }}/error.html
 
 ### parameters
 
@@ -73,11 +73,11 @@ name | description
 --- | ---
 message | the error message
 
-## `/index.html`
+## {{ book.apiBaseUrl }}/index.html
 
-## `/invite.html`
+## {{ book.apiBaseUrl }}/invite.html
 
-## `/login.html`
+## {{ book.apiBaseUrl }}/login.html
 
 ### parameters
 
@@ -85,9 +85,9 @@ name | description
 --- | ---
 redirect_url | redirect url
 
-## `/new_organization.html`
+## {{ book.apiBaseUrl }}/new_organization.html
 
-## `/success.html`
+## {{ book.apiBaseUrl }}/success.html
 
 ### parameters
 
@@ -96,10 +96,10 @@ name | description
 clear_previous_status | will clean the login result in session storage when is `√`
 redirect_url | redirect url
 
-## `/user.html`
+## {{ book.apiBaseUrl }}/user.html
 
-## `/authorized.html`
+## {{ book.apiBaseUrl }}/authorized.html
 
-## `/access_tokens.html`
+## {{ book.apiBaseUrl }}/access_tokens.html
 
-## `/registered.html`
+## {{ book.apiBaseUrl }}/registered.html

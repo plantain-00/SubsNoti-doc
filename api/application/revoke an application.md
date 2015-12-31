@@ -2,7 +2,7 @@
 
 ## url
 
-`DELETE` `/api/user/authorized/:application_id`
+`DELETE` {{ book.apiBaseUrl }}/api/user/authorized/:application_id
 
 ### [headers](../request/headers.html)
 

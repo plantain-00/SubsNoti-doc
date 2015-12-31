@@ -2,7 +2,7 @@
 
 ## url
 
-`PUT` `/api/themes/:theme_id`
+`PUT` {{ book.apiBaseUrl }}/api/themes/:theme_id
 
 ### [headers](../request/headers.html)
 

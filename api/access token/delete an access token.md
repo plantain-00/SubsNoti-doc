@@ -2,7 +2,7 @@
 
 ## url
 
-`DELETE` `/api/user/access_tokens/:access_token_id`
+`DELETE` {{ book.apiBaseUrl }}/api/user/access_tokens/:access_token_id
 
 ### [headers](../request/headers.html)
 

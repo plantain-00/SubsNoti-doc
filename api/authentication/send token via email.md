@@ -4,7 +4,7 @@ will send a link with it to the given email.
 
 ## url
 
-`POST` `/api/tokens`
+`POST` {{ book.apiBaseUrl }}/api/tokens
 
 ### [headers](../request/headers.html)
 

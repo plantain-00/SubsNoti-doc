@@ -2,7 +2,7 @@
 
 ## url
 
-`POST` `/api/temperary`
+`POST` {{ book.imageBaseUrl }}/api/temperary
 
 ### [headers](../request/headers.html)
 

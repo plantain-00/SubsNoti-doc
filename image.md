@@ -1,9 +1,7 @@
 # image
 
-## server name
+## {{ book.imageBaseUrl }}/avatar-{uid}.png
 
-`https://img.yorkyao.xyz/`
+## {{ book.imageBaseUrl }}/tmp/*.*
 
-## `/avatar-{{uid}}.png`
-
-## `/tmp/*`
+## {{ book.imageBaseUrl }}/*.*

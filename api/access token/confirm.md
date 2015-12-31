@@ -2,7 +2,7 @@
 
 ## url
 
-`POST` `/api/user/access_tokens/:code`
+`POST` {{ book.apiBaseUrl }}/api/user/access_tokens/:code
 
 ### [headers](../request/headers.html)
 

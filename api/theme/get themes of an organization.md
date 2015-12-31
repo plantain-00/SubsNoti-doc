@@ -2,7 +2,7 @@
 
 ## url
 
-`GET` `/api/organizations/:organization_id/themes`
+`GET` {{ book.apiBaseUrl }}/api/organizations/:organization_id/themes
 
 ### [headers](../request/headers.html)
 
