@@ -4,7 +4,7 @@
 
 ### connection Url
 
-`/themes`
+{{ book.apiBaseUrl }}/themes
 
 ### authentication
 

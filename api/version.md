@@ -4,7 +4,7 @@ get current version.
 
 ## url
 
-`GET` `/api/version`
+`GET` {{ book.apiBaseUrl }}/api/version
 
 ### [response body](./response.html)
 

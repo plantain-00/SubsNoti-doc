@@ -4,7 +4,7 @@ the authentication credential should be stored in a cookie named 'authentication
 
 ## url
 
-`PUT` `/api/user`
+`PUT` {{ book.apiBaseUrl }}/api/user
 
 ### [headers](../request/headers.html)
 

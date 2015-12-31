@@ -13,5 +13,9 @@
         "github": {
             "url": "https://github.com/plantain-00/SubsNoti-doc/"
         }
+    },
+    "variables": {
+        "apiBaseUrl": "https://yorkyao.xyz",
+        "imageBaseUrl": "https://img.yorkyao.xyz"
     }
 }

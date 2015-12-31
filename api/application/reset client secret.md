@@ -2,7 +2,7 @@
 
 ## url
 
-`PUT` `/api/user/registered/:application_id/client_secret`
+`PUT` {{ book.apiBaseUrl }}/api/user/registered/:application_id/client_secret
 
 ### [headers](../request/headers.html)
 

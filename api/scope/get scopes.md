@@ -2,7 +2,7 @@
 
 ## url
 
-`GET` `/api/scopes`
+`GET` {{ book.apiBaseUrl }}/api/scopes
 
 ### [headers](../request/headers.html)
 

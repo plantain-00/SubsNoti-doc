@@ -2,7 +2,7 @@
 
 ## url
 
-`POST` `/api/organizations`
+`POST` {{ book.apiBaseUrl }}/api/organizations
 
 ### [headers](../request/headers.html)
 
