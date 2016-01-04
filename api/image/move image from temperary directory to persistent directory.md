@@ -2,7 +2,7 @@
 
 ## url
 
-`POST` {{ book.imageBaseUrl }}/api/persistence
+`POST` {{ book.uploadBaseUrl }}/api/persistence
 
 ### [headers](../request/headers.html)
 
