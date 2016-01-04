@@ -16,6 +16,7 @@
     },
     "variables": {
         "apiBaseUrl": "https://yorkyao.xyz",
-        "imageBaseUrl": "https://img.yorkyao.xyz"
+        "imageBaseUrl": "https://img.yorkyao.xyz",
+        "uploadBaseUrl": "https://upload.yorkyao.xyz"
     }
 }
