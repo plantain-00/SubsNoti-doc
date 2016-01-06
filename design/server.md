@@ -1,5 +1,6 @@
 # server
 
-+ image server and uploader: {{ book.imageBaseUrl }}
++ image server: {{ book.imageBaseUrl }}
++ image uploader: {{ book.uploadBaseUrl }}
 + api and frontend: {{ book.apiBaseUrl }}
 + document: https://doc.yorkyao.xyz
