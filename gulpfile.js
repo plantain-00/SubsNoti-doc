@@ -1,15 +1,15 @@
 "use strict";
 
-let gulp = require("gulp");
-let shell = require("gulp-shell");
-let liveServer = require("live-server");
+const gulp = require("gulp");
+const shell = require("gulp-shell");
+const liveServer = require("live-server");
 
-let files = ["design/database_models", "design_backends", "design_frontends", "design_frontends_js", "design_frontends_html"];
-let target = [];
+const files = ["design/database_models", "design_backends", "design_frontends", "design_frontends_js", "design_frontends_html"];
+const target = [];
 for (let file of files) {
     target.push(`dot -Tsvg ${file}.dot > _book/${file}.svg`);
 }
-let command = target.join(" && ");
+const command = target.join(" && ");
 
 gulp.task("build", shell.task(`rm -rf _book && gitbook install && gitbook build . && ${command}`));
 
