@@ -6,7 +6,7 @@ const liveServer = require("live-server");
 
 const files = ["design/database_models", "design_backends", "design_frontends", "design_frontends_js", "design_frontends_html"];
 const target = [];
-for (let file of files) {
+for (const file of files) {
     target.push(`dot -Tsvg ${file}.dot > _book/${file}.svg`);
 }
 const command = target.join(" && ");
