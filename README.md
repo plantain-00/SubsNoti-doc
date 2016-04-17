@@ -18,7 +18,3 @@
 # deploy
 
 + `gulp deploy`
-
-# demo
-
-https://doc.yorkyao.xyz/
