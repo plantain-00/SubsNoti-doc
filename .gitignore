@@ -1,2 +1,8 @@
-_book/
 node_modules/
+*.md
+.vscode
+*.json
+.travis.yml
+*.dot
+.bookignore
+gulpfile.js
