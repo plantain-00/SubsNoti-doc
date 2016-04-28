@@ -15,6 +15,4 @@ actualErrorMessage | string | exists when an error happens unexpectedly, the exa
 
 key name | value type | description
 --- | --- | ---
-X-RateLimit-Limit | number | the maximum number of requests that the consumer is permitted to make per hour
-X-RateLimit-Remain | number |
-X-RateLimit-ResetMoment | ISO 8601 time string |
+X-Count | number | the number of requests in an hour
