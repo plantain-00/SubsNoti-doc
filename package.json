@@ -2,9 +2,8 @@
     "name": "subsnoti-doc",
     "version": "2.3.2",
     "description": "the document of `SubsNoti`",
-    "main": "gulpfile.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "check": "npm-check -u"
     },
     "repository": {
         "type": "git",
@@ -18,7 +17,6 @@
     "homepage": "https://github.com/plantain-00/SubsNoti-doc#readme",
     "devDependencies": {
         "gulp": "^3.9.0",
-        "gulp-shell": "^0.5.1",
-        "live-server": "^1.0.0"
+        "gulp-shell": "^0.5.1"
     }
 }

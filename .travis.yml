@@ -1,11 +1,10 @@
 language: node_js
 node_js:
-  - "4.1"
+  - "6.0"
 before_install:
   - sudo apt-get install graphviz graphviz-doc
 before_script:
-  - npm install -g gulp
-  - npm install -g gitbook-cli
+  - npm i -g gulp gitbook-cli
 script:
   - gulp build
 env:
@@ -16,3 +15,6 @@ addons:
       - ubuntu-toolchain-r-test
     packages:
       - g++-4.8
+branches:
+  except:
+    - release
