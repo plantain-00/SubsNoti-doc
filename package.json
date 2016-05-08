@@ -3,7 +3,9 @@
     "version": "2.3.2",
     "description": "the document of `SubsNoti`",
     "scripts": {
-        "check": "npm-check -u"
+        "check": "npm-check -u",
+        "init": "npm i -g gulp npm-check gitbook-cli",
+        "restore": "npm i"
     },
     "repository": {
         "type": "git",

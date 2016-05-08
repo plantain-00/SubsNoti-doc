@@ -4,14 +4,12 @@
 
 # tools and global npm packages
 
-+ node.js >=4.0(for ES6 support)
-+ gulp
-+ gitbook-cli
++ `npm run init`
 + graphviz
 
 # development
 
-+ `npm install`
++ `npm run restore`
 + `gulp build`
 + `gulp host`
 
