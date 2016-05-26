@@ -53,7 +53,7 @@
         data-chapter-title="response"
         data-filepath="api/response.md"
         data-basepath=".."
-        data-revision="Thu Apr 28 2016 21:47:03 GMT+0800 (CST)"
+        data-revision="Thu May 26 2016 19:35:38 GMT+0800 (CST)"
         data-innerlanguage="">
     
 
@@ -1033,14 +1033,9 @@
 </thead>
 <tbody>
 <tr>
-<td>isSuccess</td>
-<td>boolean</td>
-<td></td>
-</tr>
-<tr>
-<td>statusCode</td>
+<td>status</td>
 <td>number</td>
-<td></td>
+<td>0: success generally; 1: fail generally;</td>
 </tr>
 <tr>
 <td>errorMessage</td>
@@ -1056,11 +1051,6 @@
 <td>documentUrl</td>
 <td>string</td>
 <td>exists when fail</td>
-</tr>
-<tr>
-<td>actualErrorMessage</td>
-<td>string</td>
-<td>exists when an error happens unexpectedly, the exact error message is <code>something happens unexpectedly.</code></td>
 </tr>
 </tbody>
 </table>
