@@ -4,12 +4,10 @@
 
 key name | value type | description
 --- | --- | ---
-isSuccess | boolean |
-statusCode | number |
+status | number | 0: success generally; 1: fail generally;
 errorMessage | string | exists when fail
 stack | string | exists when fail and debug
 documentUrl | string | exists when fail
-actualErrorMessage | string | exists when an error happens unexpectedly, the exact error message is `something happens unexpectedly.`
 
 ### headers
 
