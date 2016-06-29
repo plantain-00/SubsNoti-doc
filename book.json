@@ -15,10 +15,8 @@
             "url": "https://github.com/plantain-00/SubsNoti-doc/"
         },
         "anchorjs": {
-            "icon": "#",
             "placement": "right",
-            "visible": "always",
-            "class": "custom-class another-one"
+            "visible": "hover"
         }
     },
     "variables": {
