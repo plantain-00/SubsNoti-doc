@@ -1,0 +1,29 @@
+digraph G {
+    rankdir="LR";
+    node[shape="point", width=0, height=0];
+    edge[arrowhead="none", style="dashed"]
+    {
+        rank="same";
+        edge[style="solid"];
+        Browser[shape="plaintext"];
+        Browser -> b0 -> b1 -> b2 -> b3 -> b4 -> b5;
+    }
+    {
+        rank="same";
+        edge[style="solid"];
+        Server[shape="plaintext"];
+        Server -> s0 -> s1 -> s2 -> s3 -> s4 -> s5;
+    }
+    {
+        rank="same";
+        edge[style="solid"];
+        Email[shape="plaintext"];
+        Email -> e0 -> e1 -> e2 -> e3 -> e4 -> e5;
+    }
+    b0 -> s0 [label="create a captcha", arrowhead="normal"];
+    s1 -> b1 [label="return captcha image", arrowhead="normal"];
+    b2 -> s2 [label="send token via email", arrowhead="normal"];
+    s3 -> e3 [label="send url with token", arrowhead="normal"];
+    e4 -> s4
+    s4 -> b4 [label="open in browser to login", arrowhead="normal"];
+}

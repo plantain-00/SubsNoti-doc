@@ -3,7 +3,8 @@
         "edit-link",
         "prism",
         "-highlight",
-        "github"
+        "github",
+        "anchorjs"
     ],
     "pluginsConfig": {
         "edit-link": {
@@ -12,6 +13,12 @@
         },
         "github": {
             "url": "https://github.com/plantain-00/SubsNoti-doc/"
+        },
+        "anchorjs": {
+            "icon": "#",
+            "placement": "right",
+            "visible": "always",
+            "class": "custom-class another-one"
         }
     },
     "variables": {

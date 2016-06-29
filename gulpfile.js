@@ -3,7 +3,7 @@
 const gulp = require("gulp");
 const shell = require("gulp-shell");
 
-const files = ["design/database_models", "design_backends", "design_frontends", "design_frontends_js", "design_frontends_html"];
+const files = ["design/database_models", "design_backends", "design_frontends", "design_frontends_js", "design_frontends_html", "api/authentication/login_with_email"];
 const target = [];
 for (const file of files) {
     target.push(`dot -Tsvg ${file}.dot > _book/${file}.svg`);
